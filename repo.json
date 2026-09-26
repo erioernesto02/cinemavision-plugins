@@ -3,23 +3,10 @@
   "version": "1.0",
   "plugins": [
     {
-      "name": "TMDb Provider",
+      "name": "CloudStream Oficial",
       "type": "catalog",
-      "url": "https://tu-repo.github.io/plugins/tmdb.zip",
-      "description": "Catálogo de películas y series desde TMDb",
-      "genres": ["Acción", "Drama", "Comedia", "Thriller"]
-    },
-    {
-      "name": "Wikidata Enrichment",
-      "type": "metadata",
-      "url": "https://tu-repo.github.io/plugins/wikidata.zip",
-      "description": "Añade biografías, premios y datos culturales desde Wikidata"
-    },
-    {
-      "name": "Trakt Sync",
-      "type": "sync",
-      "url": "https://tu-repo.github.io/plugins/trakt.zip",
-      "description": "Sincroniza listas y progreso de visualización con Trakt"
+      "url": "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json",
+      "description": "Extensiones oficiales de CloudStream (YouTube, Twitch, Dailymotion, Internet Archive)"
     }
   ]
 }
