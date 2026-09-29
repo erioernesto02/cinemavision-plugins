@@ -7,6 +7,12 @@
       "type": "catalog",
       "url": "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json",
       "description": "Extensiones oficiales de CloudStream (YouTube, Twitch, Dailymotion, Internet Archive)"
+    },
+    {
+      "name": "IPTV Provider",
+      "type": "live",
+      "url": "https://iptv-org.github.io/iptv/index.m3u",
+      "description": "Canales IPTV gratuitos de iptv-org"
     }
   ]
 }
