@@ -13,6 +13,21 @@
       "type": "live",
       "url": "https://iptv-org.github.io/iptv/index.m3u",
       "description": "Canales IPTV gratuitos de iptv-org"
+    },
+    {
+      "id": "pluto",
+      "name": "Pluto TV",
+      "type": "official_provider"
+    },
+    {
+      "id": "plex",
+      "name": "Plex",
+      "type": "official_provider"
+    },
+    {
+      "id": "anime",
+      "name": "Anime Sources",
+      "type": "anime"
     }
   ]
 }
