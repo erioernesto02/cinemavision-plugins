@@ -1,33 +1,101 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "1.0",
+  "version": "2.0",
   "plugins": [
     {
+      "id": "cloudstream",
       "name": "CloudStream Oficial",
-      "type": "catalog",
+      "type": "vod",
+      "enabled": true,
+      "priority": 100,
+      "capabilities": [
+        "search",
+        "movies",
+        "series",
+        "episodes"
+      ],
       "url": "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json",
-      "description": "Extensiones oficiales de CloudStream (YouTube, Twitch, Dailymotion, Internet Archive)"
-    },
-    {
-      "name": "IPTV Provider",
-      "type": "live",
-      "url": "https://iptv-org.github.io/iptv/index.m3u",
-      "description": "Canales IPTV gratuitos de iptv-org"
-    },
-    {
-      "id": "pluto",
-      "name": "Pluto TV",
-      "type": "official_provider"
-    },
-    {
-      "id": "plex",
-      "name": "Plex",
-      "type": "official_provider"
+      "description": "Extensiones oficiales de CloudStream"
     },
     {
       "id": "anime",
       "name": "Anime Sources",
-      "type": "anime"
+      "type": "vod",
+      "enabled": true,
+      "priority": 90,
+      "capabilities": [
+        "search",
+        "series",
+        "episodes",
+        "anime"
+      ],
+      "description": "Fuentes especializadas de anime"
+    },
+    {
+      "id": "plex",
+      "name": "Plex",
+      "type": "vod",
+      "enabled": true,
+      "priority": 80,
+      "capabilities": [
+        "search",
+        "movies",
+        "series",
+        "episodes"
+      ],
+      "description": "Contenido gratuito bajo demanda"
+    },
+    {
+      "id": "runtime",
+      "name": "Runtime",
+      "type": "vod",
+      "enabled": true,
+      "priority": 75,
+      "capabilities": [
+        "search",
+        "movies",
+        "series"
+      ],
+      "description": "Películas y series gratuitas"
+    },
+    {
+      "id": "tubi",
+      "name": "Tubi",
+      "type": "vod",
+      "enabled": true,
+      "priority": 70,
+      "capabilities": [
+        "search",
+        "movies",
+        "series"
+      ],
+      "description": "Películas y series bajo demanda"
+    },
+    {
+      "id": "iptv",
+      "name": "IPTV Provider",
+      "type": "live",
+      "enabled": true,
+      "priority": 100,
+      "capabilities": [
+        "channels",
+        "epg"
+      ],
+      "url": "https://iptv-org.github.io/iptv/index.m3u",
+      "description": "Canales IPTV gratuitos"
+    },
+    {
+      "id": "pluto",
+      "name": "Pluto TV",
+      "type": "live",
+      "enabled": true,
+      "priority": 90,
+      "capabilities": [
+        "channels",
+        "epg",
+        "fast_tv"
+      ],
+      "description": "Canales FAST gratuitos"
     }
   ]
 }
