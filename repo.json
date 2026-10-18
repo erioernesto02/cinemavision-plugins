@@ -1,56 +1,82 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "2.0",
+  "version": "2.1",
   "plugins": [
     {
       "id": "cloudstream",
       "name": "CloudStream Oficial",
       "type": "vod",
+      "category": "general",
       "enabled": true,
       "priority": 100,
+      "supportedMediaTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
       "capabilities": [
         "search",
         "movies",
         "series",
-        "episodes"
+        "episodes",
+        "seasons"
       ],
       "url": "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json",
       "description": "Extensiones oficiales de CloudStream"
     },
+
     {
       "id": "anime",
       "name": "Anime Sources",
       "type": "vod",
+      "category": "anime",
       "enabled": true,
-      "priority": 90,
+      "priority": 110,
+      "supportedMediaTypes": [
+        "anime"
+      ],
       "capabilities": [
         "search",
+        "anime",
         "series",
-        "episodes",
-        "anime"
+        "seasons",
+        "episodes"
       ],
       "description": "Fuentes especializadas de anime"
     },
+
     {
       "id": "plex",
       "name": "Plex",
       "type": "vod",
+      "category": "movies",
       "enabled": true,
-      "priority": 80,
+      "priority": 90,
+      "supportedMediaTypes": [
+        "movie",
+        "tv"
+      ],
       "capabilities": [
         "search",
         "movies",
         "series",
-        "episodes"
+        "episodes",
+        "seasons"
       ],
       "description": "Contenido gratuito bajo demanda"
     },
+
     {
       "id": "runtime",
       "name": "Runtime",
       "type": "vod",
+      "category": "movies",
       "enabled": true,
-      "priority": 75,
+      "priority": 85,
+      "supportedMediaTypes": [
+        "movie",
+        "tv"
+      ],
       "capabilities": [
         "search",
         "movies",
@@ -58,12 +84,18 @@
       ],
       "description": "Películas y series gratuitas"
     },
+
     {
       "id": "tubi",
       "name": "Tubi",
       "type": "vod",
+      "category": "movies",
       "enabled": true,
-      "priority": 70,
+      "priority": 80,
+      "supportedMediaTypes": [
+        "movie",
+        "tv"
+      ],
       "capabilities": [
         "search",
         "movies",
@@ -71,12 +103,17 @@
       ],
       "description": "Películas y series bajo demanda"
     },
+
     {
       "id": "iptv",
       "name": "IPTV Provider",
       "type": "live",
+      "category": "tv",
       "enabled": true,
       "priority": 100,
+      "supportedMediaTypes": [
+        "live"
+      ],
       "capabilities": [
         "channels",
         "epg"
@@ -84,12 +121,17 @@
       "url": "https://iptv-org.github.io/iptv/index.m3u",
       "description": "Canales IPTV gratuitos"
     },
+
     {
       "id": "pluto",
       "name": "Pluto TV",
       "type": "live",
+      "category": "fast-tv",
       "enabled": true,
-      "priority": 90,
+      "priority": 95,
+      "supportedMediaTypes": [
+        "live"
+      ],
       "capabilities": [
         "channels",
         "epg",
