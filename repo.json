@@ -2,6 +2,30 @@
   "name": "CineMaVision Plugins",
   "version": "2.1",
   "plugins": [
+  {
+  "id": "visuales",
+  "name": "Visuales UCLV",
+  "type": "vod",
+  "category": "local",
+  "enabled": true,
+  "priority": 120,
+  "supportedMediaTypes": [
+    "movie",
+    "tv",
+    "anime"
+  ],
+  "capabilities": [
+    "search",
+    "movies",
+    "series",
+    "episodes",
+    "seasons",
+    "stream",
+    "download"
+  ],
+  "baseUrl": "https://visuales.uclv.cu/",
+  "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga"
+},
     {
       "id": "cloudstream",
       "name": "CloudStream Oficial",
