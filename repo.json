@@ -31,7 +31,7 @@
       "name": "CloudStream Oficial",
       "type": "vod",
       "category": "general",
-      "enabled": true,
+      "enabled": false,
       "priority": 100,
       "supportedMediaTypes": [
         "movie",
@@ -54,7 +54,7 @@
       "name": "Anime Sources",
       "type": "vod",
       "category": "anime",
-      "enabled": true,
+      "enabled": false,
       "priority": 110,
       "supportedMediaTypes": [
         "anime"
@@ -74,7 +74,7 @@
       "name": "Plex",
       "type": "vod",
       "category": "movies",
-      "enabled": true,
+      "enabled": false,
       "priority": 90,
       "supportedMediaTypes": [
         "movie",
@@ -95,7 +95,7 @@
       "name": "Runtime",
       "type": "vod",
       "category": "movies",
-      "enabled": true,
+      "enabled": false,
       "priority": 85,
       "supportedMediaTypes": [
         "movie",
@@ -114,7 +114,7 @@
       "name": "Tubi",
       "type": "vod",
       "category": "movies",
-      "enabled": true,
+      "enabled": false,
       "priority": 80,
       "supportedMediaTypes": [
         "movie",
@@ -133,7 +133,7 @@
       "name": "IPTV Provider",
       "type": "live",
       "category": "tv",
-      "enabled": true,
+      "enabled": false,
       "priority": 100,
       "supportedMediaTypes": [
         "live"
@@ -151,7 +151,7 @@
       "name": "Pluto TV",
       "type": "live",
       "category": "fast-tv",
-      "enabled": true,
+      "enabled": false,
       "priority": 95,
       "supportedMediaTypes": [
         "live"
