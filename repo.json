@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "2.2",
+  "version": "2.3",
   "plugins": [
   {
   "id": "visuales",
@@ -31,7 +31,9 @@
     "Recientes",
   ],
   "baseUrl": "https://visuales.uclv.cu/",
-  "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga"
+  "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga",
+  "indexFile": "listado.html",
+  "indexFileUrl":"https://visuales.uclv.cu/"
 },
     {
       "id": "cloudstream",
