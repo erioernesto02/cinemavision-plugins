@@ -33,7 +33,8 @@
   "baseUrl": "https://visuales.uclv.cu/",
   "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga",
   "indexFile": "listado.html",
-  "indexFileUrl":"https://visuales.uclv.cu/"
+  "indexFileUrl":"https://visuales.uclv.cu/",
+  "timeRequest": 24 
 },
     {
       "id": "cloudstream",
