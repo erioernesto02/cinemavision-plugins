@@ -24,8 +24,8 @@
     "download"
   ],
   "categorias": [
-     "Series/",
-     "Recientes/"
+     "Series",
+     "Recientes"
   ],
   "baseUrl": "https://visuales.uclv.cu/",
   "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga",
