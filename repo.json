@@ -23,10 +23,16 @@
     "stream",
     "download"
   ],
-  "categories": [
+ "categories": [
   {
     "name": "Series/Ingles",
-    "path": "Series/Ingles"
+    "path": "Series/Ingles",
+    "subcategories": [
+      {
+        "name": "Ingles",
+        "path": "Series/Ingles"
+      },
+    ]
   },
   {
     "name": "Recientes",
