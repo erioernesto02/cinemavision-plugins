@@ -23,7 +23,7 @@
     "stream",
     "download"
   ],
-"categories": [
+ "categories": [
   {
     "name": "Series",
     "path": "Series",
@@ -34,7 +34,7 @@
       }
     ]
   },
-{
+  {
     "name": "Recientes",
     "path": "Recientes"
   }
