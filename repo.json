@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "2.3",
+  "version": "2.4",
   "plugins": [
   {
   "id": "visuales",
@@ -23,10 +23,26 @@
     "stream",
     "download"
   ],
-  "categorias": [
-     "Series",
-     "Recientes"
-  ],
+  "categories": [
+  {
+    "name": "Series",
+    "path": "Series",
+    "subcategories": [
+      {
+        "name": "Ingles",
+        "path": "Series/Ingles"
+      },
+      {
+        "name": "Netflix",
+        "path": "Series/Netflix"
+      }
+    ]
+  },
+  {
+    "name": "Recientes",
+    "path": "Recientes"
+  }
+],
   "baseUrl": "https://visuales.uclv.cu/",
   "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga",
   "indexFile": "listado.html",
