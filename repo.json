@@ -23,22 +23,22 @@
     "stream",
     "download"
   ],
- "categories": [
-    {
-      "name": "Series/Ingles",
-      "path": "Series/Ingles"
-      "subcategories": [
-        {
-          "name": "Ingles",
-          "path": "Series/Ingles"
-        },
-      ]
-    },
-    {
-      "name": "Recientes",
-      "path": "Recientes"
-    }
-  ],
+"categories": [
+  {
+    "name": "Series/Ingles",
+    "path": "Series/Ingles",
+    "subcategories": [
+      {
+        "name": "Ingles",
+        "path": "Series/Ingles"
+      }
+    ]
+  },
+  {
+    "name": "Recientes",
+    "path": "Recientes"
+  }
+],
   "baseUrl": "https://visuales.uclv.cu/",
   "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga",
   "indexFile": "listado.html",
