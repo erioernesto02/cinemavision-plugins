@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "2.6",
+  "version": "2.7",
   "plugins": [
   {
   "id": "visuales",
@@ -33,6 +33,10 @@
         "path": "Series/Ingles"
       }
     ]
+  },
+{
+    "name": "Recientes",
+    "path": "Recientes"
   }
 ],
   "baseUrl": "https://visuales.uclv.cu/",
