@@ -1,49 +1,73 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "2.7",
+  "version": "2.8",
   "plugins": [
-  {
-  "id": "visuales",
-  "name": "Visuales UCLV",
-  "type": "vod",
-  "category": "local",
-  "enabled": true,
-  "priority": 120,
-  "supportedMediaTypes": [
-    "movie",
-    "tv",
-    "anime"
-  ],
-  "capabilities": [
-    "search",
-    "movies",
-    "series",
-    "episodes",
-    "seasons",
-    "stream",
-    "download"
-  ],
- "categories": [
-  {
-    "name": "Series",
-    "path": "Series",
-    "subcategories": [
-      {
-        "name": "Ingles",
-        "path": "Series/Ingles"
-      }
-    ]
-  },
-  {
-    "name": "Recientes",
-    "path": "Recientes"
-  }
-],
-  "baseUrl": "https://visuales.uclv.cu/",
-  "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga",
-  "indexFile": "listado.html",
-  "indexFileUrl":"https://visuales.uclv.cu/",
-  "timeRequest": 24 
+    {
+      "id": "visuales",
+      "name": "Visuales UCLV",
+      "type": "vod",
+      "category": "local",
+      "enabled": true,
+      "priority": 120,
+      "supportedMediaTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "capabilities": [
+        "search",
+        "movies",
+        "series",
+        "episodes",
+        "seasons",
+        "stream",
+        "download"
+      ],
+      "categories": [
+        {
+          "name": "Series",
+          "path": "Series",
+          "subcategories": [
+            {
+              "name": "Ingles",
+              "path": "Series/Ingles"
+            }
+          ]
+        },
+        {
+          "name": "Infantiles",
+          "path": "Infantiles",
+          "subcategories": [
+            {
+              "name": "ADULTOS",
+              "path": "Infantiles/ADULTOS"
+            },
+            {
+              "name": "Animes",
+              "path": "Infantiles/Animes"
+            },
+            {
+              "name": "AnimeFlv",
+              "path": "Infantiles/AnimeFlv"
+            },
+            {
+              "name": "NETFLIX",
+              "path": "Infantiles/NETFLIX"
+            }
+          ]
+        },
+        {
+          "name": "Recientes",
+          "path": "Recientes"
+        }
+      ],
+      "baseUrl": "https://visuales.uclv.cu/",
+      "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga",
+      "indexFile": "listado.html",
+      "indexFileUrl": "https://visuales.uclv.cu/",
+      "timeRequest": 24
+    }
+  ]
 },
     {
       "id": "cloudstream",
