@@ -61,17 +61,36 @@
           "path": "Recientes"
         },
         {
-          "name": "Peliculas",
-          "path": "Peliculas"
+  "name": "Peliculas",
+  "path": "Peliculas",
+  "subcategories": [
+    {
+      "name": "Extranjeras",
+      "path": "Peliculas/Extranjeras",
+      "subcategories": [
+        {
+          "name": "2024",
+          "path": "Peliculas/Extranjeras/2024"
+        },
+        {
+          "name": "2025",
+          "path": "Peliculas/Extranjeras/2025"
+        },
+        {
+          "name": "2026",
+          "path": "Peliculas/Extranjeras/2026"
         }
-      ],
-      "baseUrl": "https://visuales.uclv.cu/",
-      "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga",
-      "indexFile": "listado.html",
-      "indexFileUrl": "https://visuales.uclv.cu/",
-      "timeRequest": 24
+      ]
     }
   ]
+},
+  "baseUrl": "https://visuales.uclv.cu/",
+  "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga",
+  "indexFile": "listado.html",
+  "indexFileUrl": "https://visuales.uclv.cu/",
+  "timeRequest": 24
+ }
+]
 },
     {
       "id": "cloudstream",
