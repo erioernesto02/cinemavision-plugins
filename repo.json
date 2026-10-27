@@ -69,10 +69,6 @@
       "path": "Peliculas/Extranjeras",
       "subcategories": [
         {
-          "name": "2024",
-          "path": "Peliculas/Extranjeras/2024"
-        },
-        {
           "name": "2025",
           "path": "Peliculas/Extranjeras/2025"
         },
