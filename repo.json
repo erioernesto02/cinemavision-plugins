@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "2.9",
+  "version": "3.0",
   "plugins": [
     {
       "id": "visuales",
@@ -24,38 +24,6 @@
         "download"
       ],
       "categories": [
-        {
-          "name": "Series",
-          "path": "Series",
-          "subcategories": [
-            {
-              "name": "Ingles",
-              "path": "Series/Ingles"
-            }
-          ]
-        },
-        {
-          "name": "Infantiles",
-          "path": "Infantiles",
-          "subcategories": [
-            {
-              "name": "ADULTOS",
-              "path": "Infantiles/ADULTOS"
-            },
-            {
-              "name": "Animes",
-              "path": "Infantiles/Animes"
-            },
-            {
-              "name": "AnimeFlv",
-              "path": "Infantiles/AnimeFlv"
-            },
-            {
-              "name": "NETFLIX",
-              "path": "Infantiles/NETFLIX"
-            }
-          ]
-        },
         {
           "name": "Recientes",
           "path": "Recientes"
