@@ -61,33 +61,32 @@
           "path": "Recientes"
         },
         {
-  "name": "Peliculas",
-  "path": "Peliculas",
-  "subcategories": [
-    {
-      "name": "Extranjeras",
-      "path": "Peliculas/Extranjeras",
-      "subcategories": [
-        {
-          "name": "2025",
-          "path": "Peliculas/Extranjeras/2025"
-        },
-        {
-          "name": "2026",
-          "path": "Peliculas/Extranjeras/2026"
+          "name": "Peliculas",
+          "path": "Peliculas",
+          "subcategories": [
+            {
+              "name": "Extranjeras",
+              "path": "Peliculas/Extranjeras",
+              "subcategories": [
+                {
+                  "name": "2025",
+                  "path": "Peliculas/Extranjeras/2025"
+                },
+                {
+                  "name": "2026",
+                  "path": "Peliculas/Extranjeras/2026"
+                }
+              ]
+            }
+          ]
         }
-      ]
-    }
-  ]
-},
-  "baseUrl": "https://visuales.uclv.cu/",
-  "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga",
-  "indexFile": "listado.html",
-  "indexFileUrl": "https://visuales.uclv.cu/",
-  "timeRequest": 24
- }
-]
-},
+      ],
+      "baseUrl": "https://visuales.uclv.cu/",
+      "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga",
+      "indexFile": "listado.html",
+      "indexFileUrl": "https://visuales.uclv.cu/",
+      "timeRequest": 24
+    },
     {
       "id": "cloudstream",
       "name": "CloudStream Oficial",
@@ -110,7 +109,6 @@
       "url": "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json",
       "description": "Extensiones oficiales de CloudStream"
     },
-
     {
       "id": "anime",
       "name": "Anime Sources",
@@ -130,7 +128,6 @@
       ],
       "description": "Fuentes especializadas de anime"
     },
-
     {
       "id": "plex",
       "name": "Plex",
@@ -151,7 +148,6 @@
       ],
       "description": "Contenido gratuito bajo demanda"
     },
-
     {
       "id": "runtime",
       "name": "Runtime",
@@ -170,7 +166,6 @@
       ],
       "description": "Películas y series gratuitas"
     },
-
     {
       "id": "tubi",
       "name": "Tubi",
@@ -189,7 +184,6 @@
       ],
       "description": "Películas y series bajo demanda"
     },
-
     {
       "id": "iptv",
       "name": "IPTV Provider",
@@ -207,7 +201,6 @@
       "url": "https://iptv-org.github.io/iptv/index.m3u",
       "description": "Canales IPTV gratuitos"
     },
-
     {
       "id": "pluto",
       "name": "Pluto TV",
