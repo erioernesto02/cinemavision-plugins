@@ -59,6 +59,10 @@
         {
           "name": "Recientes",
           "path": "Recientes"
+        },
+        {
+          "name": "Peliculas",
+          "path": "Peliculas"
         }
       ],
       "baseUrl": "https://visuales.uclv.cu/",
