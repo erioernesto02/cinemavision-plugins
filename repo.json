@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.1",
+  "version": "3.2",
   "plugins": [
     {
       "id": "visuales",
@@ -64,6 +64,26 @@
           "name": "Peliculas",
           "path": "Peliculas",
           "subcategories": [
+         {
+              "name": "Extranjeras/2020",
+              "path": "Peliculas/Extranjeras/2020"
+            },
+            {
+              "name": "Extranjeras/2021",
+              "path": "Peliculas/Extranjeras/2021"
+            },
+            {
+              "name": "Extranjeras/2022",
+              "path": "Peliculas/Extranjeras/2022"
+            },
+            {
+              "name": "Extranjeras/2023",
+              "path": "Peliculas/Extranjeras/2023"
+            },
+            {
+              "name": "Extranjeras/2024",
+              "path": "Peliculas/Extranjeras/2024"
+            },
             {
               "name": "Extranjeras/2025",
               "path": "Peliculas/Extranjeras/2025"
@@ -72,6 +92,7 @@
               "name": "Extranjeras/2026",
               "path": "Peliculas/Extranjeras/2026"
             },
+             
           ]
         }
       ],
