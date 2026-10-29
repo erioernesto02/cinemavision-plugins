@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.2",
+  "version": "3.3",
   "plugins": [
     {
       "id": "visuales",
@@ -38,6 +38,10 @@
           "name": "Infantiles",
           "path": "Infantiles",
           "subcategories": [
+             {
+              "name": "DISNEYPLUS",
+              "path": "Infantiles/DISNEYPLUS"
+            },
             {
               "name": "ADULTOS",
               "path": "Infantiles/ADULTOS"
@@ -53,7 +57,36 @@
             {
               "name": "NETFLIX",
               "path": "Infantiles/NETFLIX"
-            }
+            },
+             {
+              "name": "NETFLIX-Pelis",
+              "path": "Infantiles/NETFLIX-Pelis"
+            },
+             {
+              "name": "Peliculas-EN",
+              "path": "Infantiles/Peliculas-EN"
+            },
+            {
+              "name": "Peliculas-ES",
+              "path": "Infantiles/Peliculas-ES"
+            },
+            {
+              "name": "Peliculas-Japones",
+              "path": "Infantiles/Peliculas-Japones"
+            },
+           {
+              "name": "Peliculas-Ingles",
+              "path": "Infantiles/Peliculas-Ingles"
+            },
+             {
+              "name": "Seriados-EN",
+              "path": "Infantiles/Seriados-EN"
+            },
+             {
+              "name": "Seriados",
+              "path": "Infantiles/Seriados"
+            },
+
           ]
         },
         {
@@ -64,7 +97,47 @@
           "name": "Peliculas",
           "path": "Peliculas",
           "subcategories": [
-         {
+             {
+              "name": "Extranjeras/2010",
+              "path": "Peliculas/Extranjeras/2010"
+            }, 
+            {
+              "name": "Extranjeras/2011",
+              "path": "Peliculas/Extranjeras/2011"
+            },
+            {
+              "name": "Extranjeras/2012",
+              "path": "Peliculas/Extranjeras/2012"
+            },
+            {
+              "name": "Extranjeras/2013",
+              "path": "Peliculas/Extranjeras/2013"
+            }, 
+            {
+              "name": "Extranjeras/2014",
+              "path": "Peliculas/Extranjeras/2014"
+            },
+            {
+              "name": "Extranjeras/2015",
+              "path": "Peliculas/Extranjeras/2015"
+            },
+            {
+              "name": "Extranjeras/2016",
+              "path": "Peliculas/Extranjeras/2016"
+            },
+            {
+              "name": "Extranjeras/2017",
+              "path": "Peliculas/Extranjeras/2017"
+            },
+            {
+              "name": "Extranjeras/2018",
+              "path": "Peliculas/Extranjeras/2018"
+            },
+            {
+              "name": "Extranjeras/2019",
+              "path": "Peliculas/Extranjeras/2019"
+            },
+            {
               "name": "Extranjeras/2020",
               "path": "Peliculas/Extranjeras/2020"
             },
