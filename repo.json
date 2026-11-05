@@ -27,14 +27,13 @@
         {
           "name": "Series",
           "path": "Series",
+          "supportedMediaTypes": [
+                "tv"
+          ]
           "subcategories": [
             {
               "name": "Ingles",
-              "path": "Series/Ingles",
-              "supportedMediaTypes": [
-                "movie",
-                "tv"
-              ]
+              "path": "Series/Ingles"
             }
           ]
         },
@@ -99,11 +98,19 @@
         },
         {
           "name": "Recientes",
-          "path": "Recientes"
+          "path": "Recientes",
+          "supportedMediaTypes": [
+            "movie",
+            "tv",
+            "anime"
+           ]
         },
         {
           "name": "Peliculas",
           "path": "Peliculas",
+          "supportedMediaTypes": [
+            "movie"
+          ],
           "subcategories": [
             {
               "name": "Extranjeras/2010",
