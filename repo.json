@@ -30,13 +30,22 @@
           "subcategories": [
             {
               "name": "Ingles",
-              "path": "Series/Ingles"
-            }
+              "path": "Series/Ingles",
+              "supportedMediaTypes": [
+                "movie",
+                "tv"
+              ],
+            },
           ]
         },
          {
           "name": "Infantiles",
           "path": "Infantiles",
+          "supportedMediaTypes": [
+              "movie",
+              "tv",
+              "anime"
+          ],
           "subcategories": [
              {
               "name": "DISNEYPLUS",
