@@ -12,7 +12,7 @@
       "supportedMediaTypes": [
         "movie",
         "tv",
-        "anime"
+        "animación"
       ],
       "capabilities": [
         "search",
@@ -43,7 +43,7 @@
           "supportedMediaTypes": [
             "movie",
             "tv",
-            "anime"
+            "animación"
           ],
           "subcategories": [
             {
@@ -102,7 +102,7 @@
           "supportedMediaTypes": [
             "movie",
             "tv",
-            "anime"
+            "animación"
            ]
         },
         {
