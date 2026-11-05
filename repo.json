@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.5",
+  "version": "3.6",
   "plugins": [
     {
       "id": "visuales",
