@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.4",
+  "version": "3.5",
   "plugins": [
     {
       "id": "visuales",
@@ -24,7 +24,7 @@
         "download"
       ],
       "categories": [
-         {
+        {
           "name": "Series",
           "path": "Series",
           "subcategories": [
@@ -34,20 +34,20 @@
               "supportedMediaTypes": [
                 "movie",
                 "tv"
-              ],
-            },
+              ]
+            }
           ]
         },
-         {
+        {
           "name": "Infantiles",
           "path": "Infantiles",
           "supportedMediaTypes": [
-              "movie",
-              "tv",
-              "anime"
+            "movie",
+            "tv",
+            "anime"
           ],
           "subcategories": [
-             {
+            {
               "name": "DISNEYPLUS",
               "path": "Infantiles/DISNEYPLUS"
             },
@@ -67,11 +67,11 @@
               "name": "NETFLIX",
               "path": "Infantiles/NETFLIX"
             },
-             {
+            {
               "name": "NETFLIX-Pelis",
               "path": "Infantiles/NETFLIX-Pelis"
             },
-             {
+            {
               "name": "Peliculas-EN",
               "path": "Infantiles/Peliculas-EN"
             },
@@ -83,19 +83,18 @@
               "name": "Peliculas-Japones",
               "path": "Infantiles/Peliculas-Japones"
             },
-           {
+            {
               "name": "Peliculas-Ingles",
               "path": "Infantiles/Peliculas-Ingles"
             },
-             {
+            {
               "name": "Seriados-EN",
               "path": "Infantiles/Seriados-EN"
             },
-             {
+            {
               "name": "Seriados",
               "path": "Infantiles/Seriados"
-            },
-
+            }
           ]
         },
         {
@@ -106,10 +105,10 @@
           "name": "Peliculas",
           "path": "Peliculas",
           "subcategories": [
-             {
+            {
               "name": "Extranjeras/2010",
               "path": "Peliculas/Extranjeras/2010"
-            }, 
+            },
             {
               "name": "Extranjeras/2011",
               "path": "Peliculas/Extranjeras/2011"
@@ -121,7 +120,7 @@
             {
               "name": "Extranjeras/2013",
               "path": "Peliculas/Extranjeras/2013"
-            }, 
+            },
             {
               "name": "Extranjeras/2014",
               "path": "Peliculas/Extranjeras/2014"
@@ -173,8 +172,7 @@
             {
               "name": "Extranjeras/2026",
               "path": "Peliculas/Extranjeras/2026"
-            },
-             
+            }
           ]
         }
       ],
@@ -183,137 +181,7 @@
       "indexFile": "listado.html",
       "indexFileUrl": "https://visuales.uclv.cu/",
       "timeRequest": 24
-    },
-    {
-      "id": "cloudstream",
-      "name": "CloudStream Oficial",
-      "type": "vod",
-      "category": "general",
-      "enabled": false,
-      "priority": 100,
-      "supportedMediaTypes": [
-        "movie",
-        "tv",
-        "anime"
-      ],
-      "capabilities": [
-        "search",
-        "movies",
-        "series",
-        "episodes",
-        "seasons"
-      ],
-      "url": "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json",
-      "description": "Extensiones oficiales de CloudStream"
-    },
-    {
-      "id": "anime",
-      "name": "Anime Sources",
-      "type": "vod",
-      "category": "anime",
-      "enabled": false,
-      "priority": 110,
-      "supportedMediaTypes": [
-        "anime"
-      ],
-      "capabilities": [
-        "search",
-        "anime",
-        "series",
-        "seasons",
-        "episodes"
-      ],
-      "description": "Fuentes especializadas de anime"
-    },
-    {
-      "id": "plex",
-      "name": "Plex",
-      "type": "vod",
-      "category": "movies",
-      "enabled": false,
-      "priority": 90,
-      "supportedMediaTypes": [
-        "movie",
-        "tv"
-      ],
-      "capabilities": [
-        "search",
-        "movies",
-        "series",
-        "episodes",
-        "seasons"
-      ],
-      "description": "Contenido gratuito bajo demanda"
-    },
-    {
-      "id": "runtime",
-      "name": "Runtime",
-      "type": "vod",
-      "category": "movies",
-      "enabled": false,
-      "priority": 85,
-      "supportedMediaTypes": [
-        "movie",
-        "tv"
-      ],
-      "capabilities": [
-        "search",
-        "movies",
-        "series"
-      ],
-      "description": "Películas y series gratuitas"
-    },
-    {
-      "id": "tubi",
-      "name": "Tubi",
-      "type": "vod",
-      "category": "movies",
-      "enabled": false,
-      "priority": 80,
-      "supportedMediaTypes": [
-        "movie",
-        "tv"
-      ],
-      "capabilities": [
-        "search",
-        "movies",
-        "series"
-      ],
-      "description": "Películas y series bajo demanda"
-    },
-    {
-      "id": "iptv",
-      "name": "IPTV Provider",
-      "type": "live",
-      "category": "tv",
-      "enabled": false,
-      "priority": 100,
-      "supportedMediaTypes": [
-        "live"
-      ],
-      "capabilities": [
-        "channels",
-        "epg"
-      ],
-      "url": "https://iptv-org.github.io/iptv/index.m3u",
-      "description": "Canales IPTV gratuitos"
-    },
-    {
-      "id": "pluto",
-      "name": "Pluto TV",
-      "type": "live",
-      "category": "fast-tv",
-      "enabled": false,
-      "priority": 95,
-      "supportedMediaTypes": [
-        "live"
-      ],
-      "capabilities": [
-        "channels",
-        "epg",
-        "fast_tv"
-      ],
-      "description": "Canales FAST gratuitos"
     }
+
   ]
 }
