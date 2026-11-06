@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.6",
+  "version": "3.7",
   "plugins": [
     {
       "id": "visuales",
@@ -98,6 +98,7 @@
         },
         {
           "name": "Recientes",
+          "DescriptionName":"Más Recientes"
           "path": "Recientes",
           "frontSection": true,
           "supportedMediaTypes": [
