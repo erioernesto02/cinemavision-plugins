@@ -98,7 +98,7 @@
         },
         {
           "name": "Recientes",
-          "DescriptionName":"Ultimos en Visuales"
+          "DescriptionName":"Ultimos en Visuales",
           "path": "Recientes",
           "frontSection": true,
           "supportedMediaTypes": [
