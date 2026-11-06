@@ -99,6 +99,7 @@
         {
           "name": "Recientes",
           "path": "Recientes",
+          "frontSection": true
           "supportedMediaTypes": [
             "movie",
             "tv",
