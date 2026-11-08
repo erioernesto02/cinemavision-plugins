@@ -5,6 +5,7 @@
     {
       "id": "visuales",
       "name": "Visuales UCLV",
+      "DescriptionName":"Visuales UCLV",
       "type": "vod",
       "category": "local",
       "enabled": true,
