@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.8",
+  "version": "3.9",
   "plugins": [
     {
       "id": "visuales",
@@ -103,6 +103,12 @@
           "frontSection": true,
           "excludeName": [
             "MeGusta",
+            "mkv",
+            "-mSD",
+            "480p",
+            "720p",
+            "1080p",
+            "EZTVx.to"
             ],
           "supportedMediaTypes": [
             "movie",
