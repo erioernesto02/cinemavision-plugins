@@ -44,7 +44,7 @@
         },
         {
           "name": "Recientes",
-          "DescriptionName":"Recientes Visuales",
+          "descriptionName":"Recientes Visuales",
           "path": "Recientes",
           "frontSection": true,
           "timeUpdate" : 30,
