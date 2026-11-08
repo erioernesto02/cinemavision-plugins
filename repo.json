@@ -101,6 +101,9 @@
           "DescriptionName":"Ultimos en Visuales",
           "path": "Recientes",
           "frontSection": true,
+          "excludeName": [
+            "MeGusta",
+            ],
           "supportedMediaTypes": [
             "movie",
             "tv",
