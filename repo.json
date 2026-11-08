@@ -44,6 +44,27 @@
           ]
         },
         {
+          "name": "Recientes",
+          "DescriptionName":"Recientes Visuales",
+          "path": "Recientes",
+          "frontSection": true,
+          "excludeName": [
+            "MeGusta",
+            "mkv",
+            "-mSD",
+            "480p",
+            "720p",
+            "1080p",
+            "EZTVx.to",
+            "-"
+            ],
+          "supportedMediaTypes": [
+            "movie",
+            "tv",
+            "animación"
+           ]
+        },
+        {
           "name": "Infantiles",
           "path": "Infantiles",
           "supportedMediaTypes": [
@@ -101,27 +122,6 @@
               "path": "Infantiles/Seriados"
             }
           ]
-        },
-        {
-          "name": "Recientes",
-          "DescriptionName":"Ultimos en Visuales",
-          "path": "Recientes",
-          "frontSection": true,
-          "excludeName": [
-            "MeGusta",
-            "mkv",
-            "-mSD",
-            "480p",
-            "720p",
-            "1080p",
-            "EZTVx.to",
-            "-"
-            ],
-          "supportedMediaTypes": [
-            "movie",
-            "tv",
-            "animación"
-           ]
         },
         {
           "name": "Peliculas",
