@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.9",
+  "version": "3.10",
   "plugins": [
     {
       "id": "visuales",
@@ -34,6 +34,12 @@
             {
               "name": "Ingles",
               "path": "Series/Ingles"
+            }
+          ],
+           "subcategories": [
+            {
+              "name": "Espanol",
+              "path": "Series/Espanol"
             }
           ]
         },
