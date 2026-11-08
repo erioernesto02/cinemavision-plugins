@@ -47,7 +47,7 @@
           "DescriptionName":"Recientes Visuales",
           "path": "Recientes",
           "frontSection": true,
-          "timeUpdate" : 30
+          "timeUpdate" : 30,
           "excludeName": [
             "MeGusta",
             "mkv",
