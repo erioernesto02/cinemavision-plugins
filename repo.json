@@ -1,11 +1,11 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.19",
+  "version": "3.20",
   "plugins": [
     {
       "id": "visuales",
       "name": "Visuales UCLV",
-      "descriptionName":"Visuales UCLV",
+      "descriptionName": "Visuales UCLV",
       "type": "vod",
       "category": "local",
       "enabled": true,
