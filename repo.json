@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.20",
+  "version": "3.21",
   "plugins": [
     {
       "id": "visuales",
@@ -47,6 +47,7 @@
           "descriptionName":"Recientes Visuales",
           "path": "Recientes",
           "frontSection": true,
+          "frontSectionCarrusel" : 5,
           "timeUpdate" : 7,
           "excludeName": [
             "MeGusta",
