@@ -1,11 +1,11 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.21",
+  "version": "3.22",
   "plugins": [
     {
       "id": "visuales",
       "name": "Visuales UCLV",
-      "versionId": "1.0",
+      "versionId": "1.1",
       "descriptionName": "Visuales UCLV",
       "type": "vod",
       "category": "local",
@@ -61,6 +61,7 @@
             "-",
             "mp4",
             "latino",
+            "~1",
             "XviDAFG",
             "."
             ],
