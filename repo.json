@@ -45,7 +45,7 @@
         },
         {
           "name": "Recientes",
-          "descriptionName":"Recientes Visuales",
+          "descriptionName":"Estrenos Visuales",
           "path": "Recientes",
           "frontSection": true,
           "frontSectionCarrusel" : 5,
