@@ -213,7 +213,9 @@
       "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga",
       "indexFile": "listado.html",
       "indexFileUrl": "https://visuales.uclv.cu/",
-      "timeRequest": 24
+      "timeRequest": 24,
+      "downloadName": "Visuales",
+      "searchAvailibity": true
     }
 
   ]
