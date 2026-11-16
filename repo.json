@@ -49,7 +49,7 @@
           "path": "Recientes",
           "frontSection": true,
           "frontSectionCarrusel" : 5,
-          "timeUpdate" : 24,
+          "timeUpdate" : 72,
           "excludeName": [
             "MeGusta",
             "mkv",
