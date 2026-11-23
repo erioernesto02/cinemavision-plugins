@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.25",
+  "version": "3.26",
   "plugins": [
     {
       "id": "visuales",
@@ -217,33 +217,88 @@
       "downloadName": "Visuales",
       "searchAvailibity": true
     },
+   {
+      "id": "cloudstream",
+      "name": "CloudStream Oficial",
+      "versionId": "1.0",
+      "descriptionName": "CloudStream Provider",
+      "type": "provider",
+      "category": "general",
+      "enabled": false,
+      "priority": 100,
+      "supportedMediaTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "capabilities": [
+        "movies",
+        "series",
+        "episodes",
+        "seasons",
+        "stream"
+      ],
+      "source": {
+        "type": "cloudstream",
+        "repositoryUrl": "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json",
+        "resolver": "TmdbProvider"
+      },
+      "description": "Registro de providers CloudStream capaces de resolver contenido mediante TMDB ID. Requiere CloudStreamAdapter en CineVision; no modifica Visuales UCLV."
+    },
     {
-  "id": "cloudstream",
-  "name": "CloudStream Oficial",
-  "versionId": "1.0",
-  "descriptionName": "CloudStream Provider",
-  "type": "provider",
-  "category": "general",
-  "enabled": false,
-  "priority": 100,
-  "supportedMediaTypes": [
-    "movie",
-    "tv",
-    "anime"
-  ],
-  "capabilities": [
-    "movies",
-    "series",
-    "episodes",
-    "seasons",
-    "stream"
-  ],
-  "source": {
-    "type": "cloudstream",
-    "repositoryUrl": "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json",
-    "resolver": "TmdbProvider"
-  },
-  "description": "Registro de providers CloudStream."
-}
-  ]
+      "id": "cloudstream-tmdb",
+      "name": "CloudStream TMDB Providers",
+      "versionId": "1.0",
+      "descriptionName": "CloudStream TmdbProvider",
+      "type": "provider",
+      "category": "general",
+      "enabled": false,
+      "priority": 100,
+      "supportedMediaTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "capabilities": [
+        "movies",
+        "series",
+        "episodes",
+        "seasons",
+        "stream"
+      ],
+      "source": {
+        "type": "cloudstream",
+        "repositoryUrl": "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json",
+        "resolver": "TmdbProvider"
+      },
+      "description": "Registro de providers CloudStream capaces de resolver contenido mediante TMDB ID. Requiere CloudStreamAdapter en CineVision; no modifica Visuales UCLV."
+    },
+    {
+      "id": "cinepro-core",
+      "name": "CinePro Core",
+      "versionId": "1.0",
+      "descriptionName": "CinePro OMSS / Stremio",
+      "type": "provider",
+      "category": "general",
+      "enabled": false,
+      "priority": 90,
+      "supportedMediaTypes": [
+        "movie",
+        "tv"
+      ],
+      "capabilities": [
+        "movies",
+        "series",
+        "episodes",
+        "stream"
+      ],
+      "source": {
+        "type": "stremio",
+        "resolver": "tmdb",
+        "repositoryUrl": "https://github.com/cinepro-org/core",
+        "manifestPath": "/stremio/manifest.json",
+        "streamPath": "/stremio/stream/{type}/{id}.json"
+      },
+      "description": "Provider de referencia que acepta tmdb:<id> y tmdb:<id>:<season>:<episode> y expone streams mediante Stremio. Requiere una instancia autorizada/propia de CinePro Core; CineVision debe implementar StremioAddonAdapter."
+    }  ]
 }
