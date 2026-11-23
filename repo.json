@@ -217,28 +217,33 @@
       "downloadName": "Visuales",
       "searchAvailibity": true
     },
-     {
-      "id": "cloudstream",
-      "name": "CloudStream Oficial",
-      "type": "vod",
-      "category": "general",
-      "enabled": false,
-      "priority": 100,
-      "supportedMediaTypes": [
-        "movie",
-        "tv",
-        "anime"
-      ],
-      "capabilities": [
-        "search",
-        "movies",
-        "series",
-        "episodes",
-        "seasons"
-      ],
-      "url": "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json",
-      "description": "Extensiones oficiales de CloudStream"
-    }
-
+    {
+  "id": "cloudstream",
+  "name": "CloudStream Oficial",
+  "versionId": "1.0",
+  "descriptionName": "CloudStream Provider",
+  "type": "provider",
+  "category": "general",
+  "enabled": false,
+  "priority": 100,
+  "supportedMediaTypes": [
+    "movie",
+    "tv",
+    "anime"
+  ],
+  "capabilities": [
+    "movies",
+    "series",
+    "episodes",
+    "seasons",
+    "stream"
+  ],
+  "source": {
+    "type": "cloudstream",
+    "repositoryUrl": "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json",
+    "resolver": "TmdbProvider"
+  },
+  "description": "Registro de providers CloudStream."
+}
   ]
 }
