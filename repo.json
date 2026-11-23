@@ -272,5 +272,62 @@
         "streamPath": "/stremio/stream/{type}/{id}.json"
       },
       "description": "Provider de referencia que acepta tmdb:<id> y tmdb:<id>:<season>:<episode> y expone streams mediante Stremio. Requiere una instancia autorizada/propia de CinePro Core; CineVision debe implementar StremioAddonAdapter."
-    }  ]
+    },
+        {
+      "id": "plex",
+      "name": "Plex",
+      "type": "vod",
+      "category": "movies",
+      "enabled": false,
+      "priority": 90,
+      "supportedMediaTypes": [
+        "movie",
+        "tv"
+      ],
+      "capabilities": [
+        "search",
+        "movies",
+        "series",
+        "episodes",
+        "seasons"
+      ],
+      "description": "Contenido gratuito bajo demanda"
+    },
+    {
+      "id": "runtime",
+      "name": "Runtime",
+      "type": "vod",
+      "category": "movies",
+      "enabled": false,
+      "priority": 85,
+      "supportedMediaTypes": [
+        "movie",
+        "tv"
+      ],
+      "capabilities": [
+        "search",
+        "movies",
+        "series"
+      ],
+      "description": "Películas y series gratuitas"
+    },
+    {
+      "id": "tubi",
+      "name": "Tubi",
+      "type": "vod",
+      "category": "movies",
+      "enabled": false,
+      "priority": 80,
+      "supportedMediaTypes": [
+        "movie",
+        "tv"
+      ],
+      "capabilities": [
+        "search",
+        "movies",
+        "series"
+      ],
+      "description": "Películas y series bajo demanda"
+    }
+  ]
 }
