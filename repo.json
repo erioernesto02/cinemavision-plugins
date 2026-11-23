@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.28",
+  "version": "3.29",
   "plugins": [
     {
       "id": "visuales",
@@ -316,7 +316,7 @@
       "name": "Tubi",
       "type": "vod",
       "category": "movies",
-      "enabled": false,
+      "enabled": true,
       "priority": 80,
       "supportedMediaTypes": [
         "movie",
