@@ -245,6 +245,34 @@
       },
       "description": "Registro de providers CloudStream capaces de resolver contenido mediante TMDB ID. Requiere CloudStreamAdapter en CineVision; no modifica Visuales UCLV."
     },
+     {
+      "id": "cloudstream-mega",
+      "name": "CloudStream Mega",
+      "versionId": "1.0",
+      "descriptionName": "CloudStream Provider",
+      "type": "provider",
+      "category": "general",
+      "enabled": true,
+      "priority": 100,
+      "supportedMediaTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "capabilities": [
+        "movies",
+        "series",
+        "episodes",
+        "seasons",
+        "stream"
+      ],
+      "source": {
+        "type": "cloudstream",
+        "repositoryUrl": "https://raw.githubusercontent.com/self-similarity/MegaRepo/builds/repo.json",
+        "resolver": "TmdbProvider"
+      },
+      "description": "Registro de providers CloudStream capaces de resolver contenido mediante TMDB ID. Requiere CloudStreamAdapter en CineVision; no modifica Visuales UCLV."
+    },
     {
       "id": "cinepro-core",
       "name": "CinePro Core",
