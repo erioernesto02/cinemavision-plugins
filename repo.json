@@ -224,7 +224,7 @@
       "descriptionName": "CloudStream Provider",
       "type": "provider",
       "category": "general",
-      "enabled": false,
+      "enabled": true,
       "priority": 100,
       "supportedMediaTypes": [
         "movie",
@@ -252,7 +252,7 @@
       "descriptionName": "CinePro OMSS / Stremio",
       "type": "provider",
       "category": "general",
-      "enabled": false,
+      "enabled": true,
       "priority": 90,
       "supportedMediaTypes": [
         "movie",
@@ -278,7 +278,7 @@
       "name": "Plex",
       "type": "vod",
       "category": "movies",
-      "enabled": false,
+      "enabled": true,
       "priority": 90,
       "supportedMediaTypes": [
         "movie",
@@ -298,7 +298,7 @@
       "name": "Runtime",
       "type": "vod",
       "category": "movies",
-      "enabled": false,
+      "enabled": true,
       "priority": 85,
       "supportedMediaTypes": [
         "movie",
