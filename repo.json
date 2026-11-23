@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.26",
+  "version": "3.27",
   "plugins": [
     {
       "id": "visuales",
@@ -222,34 +222,6 @@
       "name": "CloudStream Oficial",
       "versionId": "1.0",
       "descriptionName": "CloudStream Provider",
-      "type": "provider",
-      "category": "general",
-      "enabled": false,
-      "priority": 100,
-      "supportedMediaTypes": [
-        "movie",
-        "tv",
-        "anime"
-      ],
-      "capabilities": [
-        "movies",
-        "series",
-        "episodes",
-        "seasons",
-        "stream"
-      ],
-      "source": {
-        "type": "cloudstream",
-        "repositoryUrl": "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json",
-        "resolver": "TmdbProvider"
-      },
-      "description": "Registro de providers CloudStream capaces de resolver contenido mediante TMDB ID. Requiere CloudStreamAdapter en CineVision; no modifica Visuales UCLV."
-    },
-    {
-      "id": "cloudstream-tmdb",
-      "name": "CloudStream TMDB Providers",
-      "versionId": "1.0",
-      "descriptionName": "CloudStream TmdbProvider",
       "type": "provider",
       "category": "general",
       "enabled": false,
