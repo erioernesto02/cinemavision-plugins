@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.33",
+  "version": "3.34",
   "plugins": [
     {
       "id": "visuales",
@@ -328,6 +328,14 @@
         "streamPath": "/stremio/stream/{type}/{id}.json"
       },
       "description": "Provider de referencia que acepta tmdb:<id> y tmdb:<id>:<season>:<episode> y expone streams mediante Stremio. Requiere una instancia autorizada/propia de CinePro Core; CineVision debe implementar StremioAddonAdapter."
-    }      
+    },
+    {
+  "id": "torrentio-provider",
+  "name": "Torrentio Provider",
+  "type": "provider",
+  "version": "1.0.0",
+  "enabled": true,
+  "endpoint": "https://torrentio.strem.fun/stream/movie/{tmdbId}.json"
+}
   ]
 }
