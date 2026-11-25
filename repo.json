@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.34",
+  "version": "3.35",
   "plugins": [
     {
       "id": "visuales",
@@ -331,11 +331,44 @@
     },
     {
   "id": "torrentio-provider",
-  "name": "Torrentio Provider",
+  "name": "Torrentio Peliculas",
   "type": "provider",
   "version": "1.0.0",
   "enabled": true,
   "endpoint": "https://torrentio.strem.fun/stream/movie/{tmdbId}.json"
+},
+    {
+  "id": "torrentio-series",
+  "name": "Torrentio Series",
+  "type": "provider",
+  "version": "1.0.0",
+  "enabled": true,
+  "endpoint": "https://torrentio.strem.fun/stream/series/{tmdbId}:{season}:{episode}.json"
+},
+  {
+  "id": "comet-movie",
+  "name": "Comet Películas",
+  "type": "provider",
+  "version": "1.0.0",
+  "enabled": true,
+  "endpoint": "https://comet.elfhosted.com/stream/movie/{tmdbId}.json"
+},
+   {
+  "id": "mediafusion-movie",
+  "name": "MediaFusion Películas",
+  "type": "provider",
+  "version": "1.0.0",
+  "enabled": true,
+  "endpoint": "https://mediafusion.elfhosted.com/stremio/stream/movie/{tmdbId}.json"
+},
+    {
+  "id": "mediafusion-series",
+  "name": "MediaFusion Series",
+  "type": "provider",
+  "version": "1.0.0",
+  "enabled": true,
+  "endpoint": "https://mediafusion.elfhosted.com/stremio/stream/series/{tmdbid}:{season}:{episode}.json"
 }
+    
   ]
 }
