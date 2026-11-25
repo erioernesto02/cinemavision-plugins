@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.36",
+  "version": "3.37",
   "plugins": [
     {
       "id": "visuales",
@@ -352,6 +352,22 @@
   "version": "1.0.0",
   "enabled": true,
   "endpoint": "https://comet.elfhosted.com/stream/movie/{tmdbId}.json"
-}    
+},
+    {
+  "id": "penguplay-movies",
+  "name": "PenguPlay Películas",
+  "type": "provider",
+  "version": "1.5.0",
+  "enabled": true,
+  "endpoint": "https://pengu.uk/stream/movie/tmdb:{tmdbId}.json"
+},
+{
+  "id": "penguplay-series",
+  "name": "PenguPlay Series",
+  "type": "provider",
+  "version": "1.5.0",
+  "enabled": true,
+  "endpoint": "https://pengu.uk/stream/series/tmdb:{tmdbId}:{season}:{episode}.json"
+}
   ]
 }
