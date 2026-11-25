@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.35",
+  "version": "3.36",
   "plugins": [
     {
       "id": "visuales",
@@ -352,23 +352,6 @@
   "version": "1.0.0",
   "enabled": true,
   "endpoint": "https://comet.elfhosted.com/stream/movie/{tmdbId}.json"
-},
-   {
-  "id": "mediafusion-movie",
-  "name": "MediaFusion Películas",
-  "type": "provider",
-  "version": "1.0.0",
-  "enabled": true,
-  "endpoint": "https://mediafusion.elfhosted.com/stremio/stream/movie/{tmdbId}.json"
-},
-    {
-  "id": "mediafusion-series",
-  "name": "MediaFusion Series",
-  "type": "provider",
-  "version": "1.0.0",
-  "enabled": true,
-  "endpoint": "https://mediafusion.elfhosted.com/stremio/stream/series/{tmdbid}:{season}:{episode}.json"
-}
-    
+}    
   ]
 }
