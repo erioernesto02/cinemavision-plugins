@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.37",
+  "version": "3.38",
   "plugins": [
     {
       "id": "visuales",
@@ -353,21 +353,21 @@
   "enabled": true,
   "endpoint": "https://comet.elfhosted.com/stream/movie/{tmdbId}.json"
 },
-    {
-  "id": "penguplay-movies",
+  {
+  "id": "penguplay-auth-movies",
   "name": "PenguPlay Películas",
   "type": "provider",
   "version": "1.5.0",
   "enabled": true,
-  "endpoint": "https://pengu.uk/stream/movie/tmdb:{tmdbId}.json"
+  "endpoint": "https://pengu.uk/%7B%22auth_token%22%3A%229jqUqzsSgDEg7e8rTndxrG7Ys0CH-nbYgj5kD0sUSeM%22%7D/stream/movie/tmdb:{tmdbId}.json"
 },
 {
-  "id": "penguplay-series",
+  "id": "penguplay-auth-series",
   "name": "PenguPlay Series",
   "type": "provider",
   "version": "1.5.0",
   "enabled": true,
-  "endpoint": "https://pengu.uk/stream/series/tmdb:{tmdbId}:{season}:{episode}.json"
+  "endpoint": "https://pengu.uk/%7B%22auth_token%22%3A%229jqUqzsSgDEg7e8rTndxrG7Ys0CH-nbYgj5kD0sUSeM%22%7D/stream/series/tmdb:{tmdbId}:{season}:{episode}.json"
 }
   ]
 }
