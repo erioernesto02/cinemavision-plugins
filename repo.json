@@ -400,7 +400,166 @@
       "version": "1.2.0",
       "enabled": true,
       "endpoint": "https://cinecalidad.fi/?s={query}"
+    },
+    {
+      "id": "lamovie-latino",
+      "name": "LaMovie 1080p Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://lamovie.cc/search?q={query}"
+    },
+    {
+      "id": "hackstore-latino",
+      "name": "HackStore HD Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://hackstore.mx/?s={query}"
+    },
+    {
+      "id": "pelispanda-latino",
+      "name": "PelisPanda Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://pelispanda.org/?s={query}"
+    },
+    {
+      "id": "seriesmetro-latino",
+      "name": "SeriesMetro Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://seriesmetro.net/search?q={query}"
+    },
+    {
+      "id": "monoschinos-latino",
+      "name": "MonosChinos Anime",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://monoschinos2.com/buscar?q={query}"
+    },
+    {
+      "id": "doramasflix-latino",
+      "name": "DoramasFlix Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://doramasflix.co/search?q={query}"
+    },
+    {
+      "id": "retrotve-latino",
+      "name": "RetroTve Retro",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://retrotve.com/search?q={query}"
+    },
+    {
+      "id": "homecine-latino",
+      "name": "HomeCine Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://www3.homecine.to/?s={query}"
+    },
+    {
+      "id": "verpelis-latino",
+      "name": "VerPelis Gratis",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://verpelis.gratis/?s={query}"
+    },
+    {
+      "id": "allpeliculas-latino",
+      "name": "AllPeliculas SE",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://allpeliculas.la/?s={query}"
+    },
+    {
+      "id": "elifilms-latino",
+      "name": "EliFilms Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://allcalidad.re/?s={query}"
+    },
+    {
+      "id": "entrepeliculas-latino",
+      "name": "EntrePelículas y Series",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://entrepeliculasyseries.nz/?s={query}"
+    },
+    {
+      "id": "megadede-latino",
+      "name": "MegaDede Oficial",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://megadede.mobi/?s={query}"
+    },
+    {
+      "id": "pelis182-latino",
+      "name": "Pelis182 Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://pelis182.net/?s={query}"
+    },
+    {
+      "id": "animeav1-latino",
+      "name": "AnimeAV1 Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://animeav1.com/search?q={query}"
+    },
+    {
+      "id": "henaojara-latino",
+      "name": "Henaojara Anime",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://ww1.henaojara.net/?s={query}"
+    },
+    {
+      "id": "vitaminagg-latino",
+      "name": "VitaminaGG MP4",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://vitaminagg.vip/?s={query}"
+    },
+    {
+      "id": "areshd-latino",
+      "name": "AresHD Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://areshd.net/?s={query}"
+    },
+    {
+      "id": "cinemitas-latino",
+      "name": "Cinemitas MultiHD",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://cinemitas.to/?s={query}"
+    },
+    {
+      "id": "embed69-latino",
+      "name": "Embed69 Direct",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://embed69.org/search?q={query}"
     }
-    
   ]
 }
