@@ -332,6 +332,7 @@
     {
   "id": "torrentio-provider",
   "name": "Torrentio Peliculas",
+  "descriptionName": "Usa descargas de Torrents, es posible que se deba usar VPN cuando se vayan a descargar los medios",    
   "type": "provider",
   "version": "1.0.0",
   "enabled": true,
@@ -340,6 +341,7 @@
     {
   "id": "torrentio-series",
   "name": "Torrentio Series",
+  "descriptionName": "Usa descargas de Torrents, es posible que se deba usar VPN cuando se vayan a descargar los medios",
   "type": "provider",
   "version": "1.0.0",
   "enabled": true,
