@@ -1,1 +1,565 @@
-
+{
+  "name": "CineMaVision Plugins",
+  "version": "3.40",
+  "plugins": [
+    {
+      "id": "visuales",
+      "name": "Visuales UCLV",
+      "versionId": "1.1",
+      "descriptionName": "Visuales UCLV",
+      "type": "vod",
+      "category": "local",
+      "enabled": true,
+      "priority": 120,
+      "supportedMediaTypes": [
+        "movie",
+        "tv",
+        "animación"
+      ],
+      "capabilities": [
+        "search",
+        "movies",
+        "series",
+        "episodes",
+        "seasons",
+        "stream",
+        "download"
+      ],
+      "categories": [
+        {
+          "name": "Series",
+          "path": "Series",
+          "supportedMediaTypes": [
+                "tv"
+          ],
+          "subcategories": [
+            {
+              "name": "Ingles",
+              "path": "Series/Ingles"
+            },
+            {
+              "name": "Espanol",
+              "path": "Series/Espanol"
+            }
+          ]
+        },
+        {
+          "name": "Recientes",
+          "descriptionName":"Estrenos Visuales",
+          "path": "Recientes",
+          "frontSection": true,
+          "frontSectionCarrusel" : 5,
+          "timeUpdate" : 72,
+          "excludeName": [
+            "MeGusta",
+            "mkv",
+            "-mSD",
+            "480p",
+            "720p",
+            "1080p",
+            "EZTVx.to",
+            "-",
+            "mp4",
+            "latino",
+            "~1",
+            "PARA DESESPERADOS/",
+            "XviDAFG",
+            "."
+            ],
+          "supportedMediaTypes": [
+            "movie",
+            "tv",
+            "animación"
+           ]
+        },
+        {
+          "name": "Infantiles",
+          "path": "Infantiles",
+          "supportedMediaTypes": [
+            "movie",
+            "tv",
+            "animación"
+          ],
+          "subcategories": [
+            {
+              "name": "DISNEYPLUS",
+              "path": "Infantiles/DISNEYPLUS"
+            },
+            {
+              "name": "ADULTOS",
+              "path": "Infantiles/ADULTOS"
+            },
+            {
+              "name": "Animes",
+              "path": "Infantiles/Animes"
+            },
+            {
+              "name": "AnimeFlv",
+              "path": "Infantiles/AnimeFlv"
+            },
+            {
+              "name": "NETFLIX",
+              "path": "Infantiles/NETFLIX"
+            },
+            {
+              "name": "NETFLIX-Pelis",
+              "path": "Infantiles/NETFLIX-Pelis"
+            },
+            {
+              "name": "Peliculas-EN",
+              "path": "Infantiles/Peliculas-EN"
+            },
+            {
+              "name": "Peliculas-ES",
+              "path": "Infantiles/Peliculas-ES"
+            },
+            {
+              "name": "Peliculas-Japones",
+              "path": "Infantiles/Peliculas-Japones"
+            },
+            {
+              "name": "Peliculas-Ingles",
+              "path": "Infantiles/Peliculas-Ingles"
+            },
+            {
+              "name": "Seriados-EN",
+              "path": "Infantiles/Seriados-EN"
+            },
+            {
+              "name": "Seriados",
+              "path": "Infantiles/Seriados"
+            }
+          ]
+        },
+        {
+          "name": "Peliculas",
+          "path": "Peliculas",
+          "supportedMediaTypes": [
+            "movie"
+          ],
+          "subcategories": [
+            {
+              "name": "Extranjeras/2010",
+              "path": "Peliculas/Extranjeras/2010"
+            },
+            {
+              "name": "Extranjeras/2011",
+              "path": "Peliculas/Extranjeras/2011"
+            },
+            {
+              "name": "Extranjeras/2012",
+              "path": "Peliculas/Extranjeras/2012"
+            },
+            {
+              "name": "Extranjeras/2013",
+              "path": "Peliculas/Extranjeras/2013"
+            },
+            {
+              "name": "Extranjeras/2014",
+              "path": "Peliculas/Extranjeras/2014"
+            },
+            {
+              "name": "Extranjeras/2015",
+              "path": "Peliculas/Extranjeras/2015"
+            },
+            {
+              "name": "Extranjeras/2016",
+              "path": "Peliculas/Extranjeras/2016"
+            },
+            {
+              "name": "Extranjeras/2017",
+              "path": "Peliculas/Extranjeras/2017"
+            },
+            {
+              "name": "Extranjeras/2018",
+              "path": "Peliculas/Extranjeras/2018"
+            },
+            {
+              "name": "Extranjeras/2019",
+              "path": "Peliculas/Extranjeras/2019"
+            },
+            {
+              "name": "Extranjeras/2020",
+              "path": "Peliculas/Extranjeras/2020"
+            },
+            {
+              "name": "Extranjeras/2021",
+              "path": "Peliculas/Extranjeras/2021"
+            },
+            {
+              "name": "Extranjeras/2022",
+              "path": "Peliculas/Extranjeras/2022"
+            },
+            {
+              "name": "Extranjeras/2023",
+              "path": "Peliculas/Extranjeras/2023"
+            },
+            {
+              "name": "Extranjeras/2024",
+              "path": "Peliculas/Extranjeras/2024"
+            },
+            {
+              "name": "Extranjeras/2025",
+              "path": "Peliculas/Extranjeras/2025"
+            },
+            {
+              "name": "Extranjeras/2026",
+              "path": "Peliculas/Extranjeras/2026"
+            }
+          ]
+        }
+      ],
+      "baseUrl": "https://visuales.uclv.cu/",
+      "description": "Biblioteca multimedia de Visuales UCLV con soporte para streaming y descarga",
+      "indexFile": "listado.html",
+      "indexFileUrl": "https://visuales.uclv.cu/",
+      "timeRequest": 24,
+      "downloadName": "Visuales",
+      "searchAvailibity": true
+    },
+   {
+      "id": "cloudstream",
+      "name": "CloudStream Oficial",
+      "versionId": "1.0",
+      "descriptionName": "CloudStream Provider",
+      "type": "provider",
+      "category": "general",
+      "enabled": true,
+      "priority": 100,
+      "supportedMediaTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "capabilities": [
+        "movies",
+        "series",
+        "episodes",
+        "seasons",
+        "stream"
+      ],
+      "source": {
+        "type": "cloudstream",
+        "repositoryUrl": "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json",
+        "resolver": "TmdbProvider"
+      },
+      "description": "Registro de providers CloudStream capaces de resolver contenido mediante TMDB ID. Requiere CloudStreamAdapter en CineVision; no modifica Visuales UCLV."
+    },
+     {
+      "id": "cloudstream-mega",
+      "name": "CloudStream Mega",
+      "versionId": "1.0",
+      "descriptionName": "CloudStream Provider",
+      "type": "provider",
+      "category": "general",
+      "enabled": true,
+      "priority": 100,
+      "supportedMediaTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "capabilities": [
+        "movies",
+        "series",
+        "episodes",
+        "seasons",
+        "stream"
+      ],
+      "source": {
+        "type": "cloudstream",
+        "repositoryUrl": "https://raw.githubusercontent.com/self-similarity/MegaRepo/builds/repo.json",
+        "resolver": "TmdbProvider"
+      },
+      "description": "Registro de providers CloudStream capaces de resolver contenido mediante TMDB ID. Requiere CloudStreamAdapter en CineVision; no modifica Visuales UCLV."
+    },
+     {
+      "id": "cloudstream-Phisher",
+      "name": "CloudStream Phisher",
+      "versionId": "1.0",
+      "descriptionName": "CloudStream Provider",
+      "type": "provider",
+      "category": "general",
+      "enabled": true,
+      "priority": 100,
+      "supportedMediaTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "capabilities": [
+        "movies",
+        "series",
+        "episodes",
+        "seasons",
+        "stream"
+      ],
+      "source": {
+        "type": "cloudstream",
+        "repositoryUrl": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/repo.json",
+        "resolver": "TmdbProvider"
+      },
+      "description": "Registro de providers CloudStream capaces de resolver contenido mediante TMDB ID. Requiere CloudStreamAdapter en CineVision; no modifica Visuales UCLV."
+    },
+    {
+      "id": "cinepro-core",
+      "name": "CinePro Core",
+      "versionId": "1.0",
+      "descriptionName": "CinePro OMSS / Stremio",
+      "type": "provider",
+      "category": "general",
+      "enabled": true,
+      "priority": 90,
+      "supportedMediaTypes": [
+        "movie",
+        "tv"
+      ],
+      "capabilities": [
+        "movies",
+        "series",
+        "episodes",
+        "stream"
+      ],
+      "source": {
+        "type": "stremio",
+        "resolver": "tmdb",
+        "repositoryUrl": "https://github.com/cinepro-org/core",
+        "manifestPath": "/stremio/manifest.json",
+        "streamPath": "/stremio/stream/{type}/{id}.json"
+      },
+      "description": "Provider de referencia que acepta tmdb:<id> y tmdb:<id>:<season>:<episode> y expone streams mediante Stremio. Requiere una instancia autorizada/propia de CinePro Core; CineVision debe implementar StremioAddonAdapter."
+    },
+    {
+  "id": "torrentio-provider",
+  "name": "Torrentio Peliculas",
+  "type": "provider",
+  "version": "1.0.0",
+  "enabled": true,
+  "endpoint": "https://torrentio.strem.fun/stream/movie/{tmdbId}.json"
+},
+    {
+  "id": "torrentio-series",
+  "name": "Torrentio Series",
+  "type": "provider",
+  "version": "1.0.0",
+  "enabled": true,
+  "endpoint": "https://torrentio.strem.fun/stream/series/{tmdbId}:{season}:{episode}.json"
+},
+  {
+  "id": "comet-movie",
+  "name": "Comet Películas",
+  "type": "provider",
+  "version": "1.0.0",
+  "enabled": true,
+  "endpoint": "https://comet.elfhosted.com/stream/movie/{tmdbId}.json"
+},
+  {
+    "id": "comet-series",
+    "name": "Comet Series",
+    "type": "provider",
+    "version": "1.0.0",
+    "enabled": true,
+    "endpoint": "https://comet.elfhosted.com/stream/series/{tmdbId}:{season}:{episode}.json"
+  },
+  {
+    "id": "penguplay-auth-movies",
+    "name": "PenguPlay Películas",
+    "type": "provider",
+    "version": "1.5.0",
+    "enabled": true,
+    "endpoint": "https://pengu.uk/%7B%22auth_token%22%3A%229jqUqzsSgDEg7e8rTndxrG7Ys0CH-nbYgj5kD0sUSeM%22%7D/stream/movie/tmdb:{tmdbId}.json"
+  },
+  {
+    "id": "penguplay-auth-series",
+    "name": "PenguPlay Series",
+    "type": "provider",
+    "version": "1.5.0",
+    "enabled": true,
+    "endpoint": "https://pengu.uk/%7B%22auth_token%22%3A%229jqUqzsSgDEg7e8rTndxrG7Ys0CH-nbYgj5kD0sUSeM%22%7D/stream/series/tmdb:{tmdbId}:{season}:{episode}.json"
+},
+    {
+      "id": "cuevana3-latino",
+      "name": "Cuevana3 Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://wv3.cuevana3.eu/search?q={query}"
+    },
+    {
+      "id": "pelisplus-latino",
+      "name": "PelisPlusHD Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://www.pelisplushd.la/search?s={query}"
+    },
+    {
+      "id": "cinecalidad-latino",
+      "name": "CineCalidad Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://cinecalidad.fi/?s={query}"
+    },
+    {
+      "id": "lamovie-latino",
+      "name": "LaMovie 1080p Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://lamovie.cc/search?q={query}"
+    },
+    {
+      "id": "hackstore-latino",
+      "name": "HackStore HD Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://hackstore.mx/?s={query}"
+    },
+    {
+      "id": "pelispanda-latino",
+      "name": "PelisPanda Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://pelispanda.org/?s={query}"
+    },
+    {
+      "id": "seriesmetro-latino",
+      "name": "SeriesMetro Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://seriesmetro.net/search?q={query}"
+    },
+    {
+      "id": "monoschinos-latino",
+      "name": "MonosChinos Anime",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://monoschinos2.com/buscar?q={query}"
+    },
+    {
+      "id": "doramasflix-latino",
+      "name": "DoramasFlix Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://doramasflix.co/search?q={query}"
+    },
+    {
+      "id": "retrotve-latino",
+      "name": "RetroTve Retro",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://retrotve.com/search?q={query}"
+    },
+    {
+      "id": "homecine-latino",
+      "name": "HomeCine Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://www3.homecine.to/?s={query}"
+    },
+    {
+      "id": "verpelis-latino",
+      "name": "VerPelis Gratis",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://verpelis.gratis/?s={query}"
+    },
+    {
+      "id": "allpeliculas-latino",
+      "name": "AllPeliculas SE",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://allpeliculas.la/?s={query}"
+    },
+    {
+      "id": "elifilms-latino",
+      "name": "EliFilms Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://allcalidad.re/?s={query}"
+    },
+    {
+      "id": "entrepeliculas-latino",
+      "name": "EntrePelículas y Series",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://entrepeliculasyseries.nz/?s={query}"
+    },
+    {
+      "id": "megadede-latino",
+      "name": "MegaDede Oficial",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://megadede.mobi/?s={query}"
+    },
+    {
+      "id": "pelis182-latino",
+      "name": "Pelis182 Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://pelis182.net/?s={query}"
+    },
+    {
+      "id": "animeav1-latino",
+      "name": "AnimeAV1 Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://animeav1.com/search?q={query}"
+    },
+    {
+      "id": "henaojara-latino",
+      "name": "Henaojara Anime",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://ww1.henaojara.net/?s={query}"
+    },
+    {
+      "id": "vitaminagg-latino",
+      "name": "VitaminaGG MP4",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://vitaminagg.vip/?s={query}"
+    },
+    {
+      "id": "areshd-latino",
+      "name": "AresHD Latino",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://areshd.net/?s={query}"
+    },
+    {
+      "id": "cinemitas-latino",
+      "name": "Cinemitas MultiHD",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://cinemitas.to/?s={query}"
+    },
+    {
+      "id": "embed69-latino",
+      "name": "Embed69 Direct",
+      "type": "provider",
+      "version": "1.2.0",
+      "enabled": true,
+      "endpoint": "https://embed69.org/search?q={query}"
+    }
+  ]
+}
