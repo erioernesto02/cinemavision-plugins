@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.40",
+  "version": "3.41",
   "plugins": [
     {
       "id": "visuales",
@@ -334,7 +334,7 @@
   "name": "Torrentio Peliculas",
   "descriptionName": "Usa descargas de Torrents, es posible que se deba usar VPN cuando se vayan a descargar los medios",    
   "type": "provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "enabled": true,
   "endpoint": "https://torrentio.strem.fun/stream/movie/{tmdbId}.json"
 },
@@ -343,7 +343,7 @@
   "name": "Torrentio Series",
   "descriptionName": "Usa descargas de Torrents, es posible que se deba usar VPN cuando se vayan a descargar los medios",
   "type": "provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "enabled": true,
   "endpoint": "https://torrentio.strem.fun/stream/series/{tmdbId}:{season}:{episode}.json"
 },
