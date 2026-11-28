@@ -1,6 +1,6 @@
 {
   "name": "CineMaVision Plugins",
-  "version": "3.41",
+  "version": "3.42",
   "plugins": [
     {
       "id": "visuales",
@@ -217,6 +217,22 @@
       "downloadName": "Visuales",
       "searchAvailibity": true
     },
+     {
+  "id": "torrentio-provider",
+  "name": "Torrentio Peliculas",
+  "type": "provider",
+  "version": "1.0.0",
+  "enabled": false,
+  "endpoint": "https://torrentio.strem.fun/stream/movie/{tmdbId}.json"
+},
+    {
+  "id": "torrentio-series",
+  "name": "Torrentio Series",
+  "type": "provider",
+  "version": "1.0.0",
+  "enabled": false,
+  "endpoint": "https://torrentio.strem.fun/stream/series/{tmdbId}:{season}:{episode}.json"
+},
    {
       "id": "cloudstream",
       "name": "CloudStream Oficial",
